@@ -1,4 +1,4 @@
-# Jnekins spring kubernetes
+# jenkins spring kubernetes
 - Instale o vagrant
 - Comandos:
 ```
