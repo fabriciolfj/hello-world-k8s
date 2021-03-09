@@ -18,3 +18,7 @@ sudo apt-get install jenkins
 
 cat /var/log/jenkins/jenkins.log
 ```
+- Dar permissão ao usuário do docker
+```
+sudo usermod -aG docker jenkins 
+``
