@@ -4,4 +4,5 @@
 ```
 vagrant init -m (gera o arquivo)
 vagrant up
-``
+```
+- Dentro da maquina do jenkinsserver, instale o java e docker.
