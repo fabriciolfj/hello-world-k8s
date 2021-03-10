@@ -53,7 +53,7 @@ node {
         sh 'docker push  fabricio211/hello-demo'
     }
     
-        stage("SSH Into k8s Server") {
+    stage("SSH Into k8s Server") {
         def remote = [:]
         remote.name = 'K8S master'
         remote.host = '100.0.0.2'
