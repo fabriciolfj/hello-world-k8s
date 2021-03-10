@@ -22,7 +22,7 @@ cat /var/log/jenkins/jenkins.log
 ```
 sudo usermod -aG docker jenkins 
 sudo service jenkins restart
-``
+```
 - Exemplo pipeline
 ```
 node {
